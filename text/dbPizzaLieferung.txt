@@ -1,0 +1,18 @@
+Pizzalieferungen
+Aufgabe:
+Es gibt mehrere Kunden, die jeweils einen Vornamen, einen Nachnamen, eine Postleitzahl, einen Ort und eine Strasse mit Hausnummer haben.
+Jede Lieferung gehört zu einem Kunden, diese Lieferung kann mehrere Getränke und mehrere Pizze enthalten.
+Getränke haben jeweils einen Namen und einen Preis.
+Jede Pizza ist entweder klein oder groß.
+Die kleine Pizza kostet weniger als die große Pizza.
+Die Preise für die Toppings sind unabhängig von der Pizzagröße gleich.
+Der Preis einer Pizze besteht aus dem Basispizzapreis und den Preisen für die Toppings.
+Jedes Topping hat jeweils seinen Preis.
+Toppings können auch mehrfach bestellt werden, z.B. 2 mal Champignons
+
+Erstelle ein BC-normalisierte Datenbank aus der sich Beispielbestellungen auslesen lassen. Opional: Es soll auch der Gesamtpreis einer Lieferung berechnet werden(sql-Befehl).
+Die Datenbank soll mit MariaDB umgesetzt werden.
+Benutze dazu Beispieldaten, die Du Dir selber ausdenkst. Erstelle alle PKs und FKs.
+Tipp: Preise haben das Datenformat 'DECIMAL(anzahlDerGesamtenStellen, anzahlDerStellennachdemKomma)'. 
+
+Viel Erfolg
