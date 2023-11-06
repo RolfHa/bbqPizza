@@ -1,0 +1,18 @@
+Refactoring
+
+Basis konsolidieren, aufräumen, verbessern, so dass
+möglichst keine Codeverdopplungen vorkommen
+und Vereinbarungen eingehalten werden
+
+nachdem der Code rekonstruiert wird, erst danach wird eine neue
+Funktionalität eingebaut
+
+Vereinbarung: index.php auf oberster Ebene wird immer aufgerufen,
+egal welche Funktionalität wir brauchen
+
+nach (fast jeder) Änderung, die wir durchführen, testen wir
+
+Vereinbarung: Ordner kleinschreiben und Singular benutzen
+Dateien werden kleingeschrieben, Ausnahme Dateien, in denen eine Klasse drin ist,
+die werden großgeschrieben ( ist schon alles richtig)
+
